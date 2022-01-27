@@ -34,7 +34,7 @@ When training on the high risk loans only, I got 85% accuracy and 80% precision,
 * I need to get more current data, as the loans I was working with up to 2018.
 ## For More Information 
 
-Review the detailed analysis in the [Main Notebook](Main_notebook.ipynb) or the presentation slides.
+Review the detailed analysis in the [Main Notebook](Main_notebook.ipynb) or the [presentation slides.](presentation_slides.pdf)
 
 If you have any questions, reach out to me on [linkedin](https://www.linkedin.com/in/mendy-nemanow-2594ab225/)
 
