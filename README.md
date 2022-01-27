@@ -14,7 +14,7 @@ Now what if you can create an algorithm to predict if a loan will default. Then 
 ## Data Understanding
 The loans I worked with are all loans from the [Lending Club](https://www.lendingclub.com/) platform. Lending club was one of the pioneers for this form of lending, and was one of the most popular. Since a year ago they changed their business and no longer handles P2P lending.
 
-I will be working with close to half a million loans from 2016 to 2018, that had over 150 features. I cleaned the dataset and reduced the features to about 70 relevant features , and saved the cleaned datset to a csv file so that I didn't have to go over that process each time. Check out the [cleaning and sampling notebook](Cleaning_sampling.ipynb) for more on that.
+I will be working with close to half a million loans from 2016 to 2018, that had over 150 features. I cleaned the dataset and reduced the features to about 70 relevant features, and saved the cleaned datset to a csv file so that I didn't have to go over that process each time. Check out the [cleaning and sampling notebook](Cleaning_sampling.ipynb) for more on that. The files were too big to upload to git hub so I made sample of the files to upload.
 
 ## Methodology
 
