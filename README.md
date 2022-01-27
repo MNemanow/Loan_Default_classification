@@ -14,8 +14,7 @@ Now what if you can create an algorithm to predict if a loan will default. Then 
 ## Data Understanding
 The loans I worked with are all loans from the [Lending Club](https://www.lendingclub.com/) platform. Lending club was one of the pioneers for this form of lending, and was one of the most popular. Since a year ago they changed their business and no longer handles P2P lending.
 
-I will be working with close to half a million loans from 2016 to 2018, that had over 150 features. I have already cleaned in the Cleaning and sampling notebook, and reduced the features down to 70. Check out that notebook for more details.
-
+I will be working with close to half a million loans from 2016 to 2018, that had over 150 features. I cleaned the dataset and reduced the features to about 70 relevant features , and saved the cleaned datset to a csv. check out the [cleaning and sampling notebook](Cleaning_sampling.ipynb) for more on that.
 ## Methodology
 
 I had many features to use, and had to find a way to reduce the dimensionality. I started off with training my model on only the most obviously important features for a loan, like annual income or credit score. After that I tried using all the features witha PCA to reduce the dimensionality. After that I tried training on only a subset of the data that had much higher interest rates because of the higher risk, to try to get more value.
