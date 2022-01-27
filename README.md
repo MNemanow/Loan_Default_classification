@@ -44,5 +44,6 @@ If you have any questions, reach out to me on [linkedin](https://www.linkedin.co
 ├── .gitingore
 ├── Cleaning_samling.ipynb
 ├── Main_notebook.ipynb
-└── README.md
+├── README.md
+└── presentation_slides.pdf
 ```
