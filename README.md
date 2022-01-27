@@ -15,12 +15,23 @@ Now what if you can create an algorithm to predict if a loan will default. Then 
 The loans I worked with are all loans from the [Lending Club](https://www.lendingclub.com/) platform. Lending club was one of the pioneers for this form of lending, and was one of the most popular. Since a year ago they changed their business and no longer handles P2P lending.
 
 I will be working with close to half a million loans from 2016 to 2018, that had over 150 features. I have already cleaned in the Cleaning and sampling notebook, and reduced the features down to 70. Check out that notebook for more details.
+
 ## Methodology
+
 I had many features to use, and had to find a way to reduce the dimensionality. I started off with training my model on only the most obviously important features for a loan, like annual income or credit score. After that I tried using all the features witha PCA to reduce the dimensionality. After that I tried training on only a subset of the data that had much higher interest rates because of the higher risk, to try to get more value.
+
 ## Model Results
 
-## Conclusions 
+![image](https://user-images.githubusercontent.com/81991136/151380043-bf25b909-502d-4173-b4c0-013d23e219c3.png)
 
+The best accuarcy I got was 90%, and 89% precision score, using all the features and a logistic regression.
+
+When training on the high risk loans only, I got 85% accuracy and 80% precision, which considering the 37% default rate, is pretty impressive. And with the high interest rates, It's a good deal.
+
+## Next Steps 
+
+* Because lending club has changed their business and no longer is a P2P platform, I need to test this model on some other platforms loan applications.
+* I need to get more current data, as the loans I was working with up to 2018.
 ## For More Information 
 
 Review the detailed analysis in the Final Notebook or the presentation slides.
@@ -28,3 +39,10 @@ Review the detailed analysis in the Final Notebook or the presentation slides.
 If you have any questions, reach out to me on [linkedin](https://www.linkedin.com/in/mendy-nemanow-2594ab225/)
 
 ## Repository structure
+```
+├── [data]
+├──  [images]
+├── .gitignore
+├── README.md
+└── notebook.ipynb
+```
