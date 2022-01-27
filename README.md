@@ -41,8 +41,8 @@ If you have any questions, reach out to me on [linkedin](https://www.linkedin.co
 ## Repository structure
 ```
 ├── [data]
-├──  [images]
+├── Cleaning_samling.ipynb
 ├── .gitignore
-├── README.md
-└── notebook.ipynb
+├── Main_notebook.ipynb
+└── README.md
 ```
